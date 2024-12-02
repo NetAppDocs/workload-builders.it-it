@@ -1,0 +1,133 @@
+---
+sidebar: sidebar 
+permalink: manage-projects.html 
+keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage 
+summary: Gestisci le istanze di Microsoft SQL Server in farm di workload per i database. 
+---
+= Gestire i progetti Builders
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+È possibile gestire i progetti dei costruttori per controllare il modo in cui il codice e gli artefatti vengono gestiti per ogni progetto in BlueXP  workload Factory for Builders.
+
+
+
+== Creare un progetto
+
+Puoi creare un nuovo progetto Builders in modo da sfruttare le funzionalità di data Protection del file system di Amazon FSX per NetApp ONTAP per codice e artefatti.
+
+.Fasi
+. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
+. Nella sezione costruttori, selezionare *Crea progetto*.
+. Nella pagina Crea progetto, fornire quanto segue:
++
+.. *Nome progetto*: Immettere un nome per il progetto.
+.. *Descrizione*: Inserire una descrizione per il progetto.
+.. *Filesystem*: Fornire quanto segue:
++
+... *Credenziali*: Selezionare le credenziali Amazon AWS da utilizzare. Builder utilizza queste credenziali per scoprire i filesystem FSX for ONTAP che è possibile utilizzare con questo progetto e per creare cloni e snapshot dei progetti.
+... *Regione*: Selezionare l'area in cui risiede questo file system FSX per ONTAP.
+... *FSX per il filesystem ONTAP*: Selezionate un filesystem FSX per ONTAP da usare con questo progetto.
++
+È possibile selezionare solo i filesystem configurati con un collegamento. https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["Ulteriori informazioni sui collegamenti"^].
+
+... *Scegli un volume*: Seleziona un volume su cui archiviare il progetto; Builders utilizza questo volume come repository software.
++
+È possibile selezionare solo volumi configurati come condivisione NFS.
+
+
+
+.. *Politiche operative*: Fornire limiti per i cloni dei progetti:
++
+... *Conservazione massima in giorni*: Immettere il numero massimo di giorni in cui un clone deve essere conservato. Trascorso questo numero di giorni, il clone viene rimosso in fabbrica dal carico di lavoro.
+... *Numero massimo di cloni per utente o gruppo*: Immettere il numero massimo di cloni che possono essere forniti per un utente o un gruppo.
+... *Dimensione massima del clone in GiB*: Immettere la dimensione massima in GiB di un clone di progetto.
+
+
+.. *Criteri di accesso*: Concedere esplicitamente l'accesso al progetto a utenti o gruppi specifici:
++
+... *Ambito di applicazione criteri*: Immettere singoli indirizzi IP o intervalli di indirizzi IP per limitare l'accesso al progetto solo a tali indirizzi o intervalli IP.
++
+Ad esempio: `172.16.0.0/24`
+
+... *Identificatori utente o gruppo*: Immettere gli identificatori utente o gruppo per limitare l'accesso al progetto solo a tali utenti o gruppi.
++
+Ad esempio: `User1234`
+
+
+
+
+
+. Selezionare *Crea*.
+
+
+.Risultato
+Il progetto viene creato e viene visualizzato nell'elenco dei progetti nella pagina progetti.
+
+
+
+== Visualizzare i progetti esistenti
+
+È possibile visualizzare i progetti esistenti creati in BlueXP  workload Factory per i costruttori seguendo questi passaggi.
+
+.Fasi
+. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
+. Nella sezione costruttori, selezionare *Vai alla pagina progetti*.
+. Visualizzare i progetti esistenti elencati nella pagina progetti.
+
+
+
+
+== Modificare un progetto
+
+È possibile modificare le impostazioni di un progetto in qualsiasi momento.
+
+.Fasi
+. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
+. Nella sezione costruttori, selezionare *Vai alla pagina progetti*.
+. Nella pagina progetti, selezionare image:icon-action.png["il pulsante di opzione"] per il progetto che si desidera modificare.
+. Apportare le modifiche necessarie alla configurazione del progetto.
+. Selezionare *Salva*.
+
+
+.Fasi
+. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
+. Nella sezione costruttori, selezionare *Vai alla pagina progetti*.
+. Nella pagina progetti, selezionare image:icon-action.png["il pulsante di opzione"] per il progetto che si desidera acquisire.
+. Nel menu risultante, selezionare *Crea un'istantanea*.
+. Nella finestra di dialogo *Crea istantanea*, scegliere un nome per l'istantanea e selezionare *Crea*.
+
+
+
+
+== Visualizzare le aree di lavoro di un progetto
+
+Un clone o un'istantanea di un progetto è nota come area di lavoro. Quando si crea un'area di lavoro, questa viene conservata per tutto il tempo consentito dal criterio operativo del progetto. È possibile visualizzare le aree di lavoro esistenti per un progetto seguendo questi passaggi.
+
+.Fasi
+. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
+. Nella sezione costruttori, selezionare *Vai alla pagina progetti*.
+. Nella pagina progetti, scegliere un progetto e selezionare *Visualizza*.
+. Visualizzare lo stato e i dettagli di tutte le aree di lavoro per questo progetto.
+. Se vengono visualizzati avvisi o avvisi per un'area di lavoro, passare il mouse sull'icona di avviso o avvertenza per visualizzare il motivo.
+
+
+
+
+== Eliminare un progetto
+
+È possibile eliminare un progetto quando non è più necessario seguendo questi passaggi.
+
+.Fasi
+. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
+. Nella sezione costruttori, selezionare *Vai alla pagina progetti*.
+. Nella pagina progetti, selezionare image:icon-action.png["il pulsante di opzione"] per il progetto che si desidera eliminare.
+. Selezionare *Delete* (Elimina).
+. Nella finestra di dialogo di conferma, selezionare *Elimina*.
+
+
+.Risultato
+Il progetto viene eliminato e qualsiasi codice o artefatto associato al progetto viene eliminato dal volume. Le snapshot e i cloni del progetto vengono conservati.

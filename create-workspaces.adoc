@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: create-workspaces.html 
+keywords: manage, workspace, snapshot, project 
+summary: 'Un"area di lavoro nella fabbrica del carico di lavoro BlueXP  per i costruttori è una rappresentazione in Perforce di un progetto che si basa su uno snapshot del progetto. È possibile creare aree di lavoro come parte di un progetto Builders.' 
+---
+= Creare un'area di lavoro
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Un'area di lavoro nella fabbrica di workload BlueXP  per i costruttori è una rappresentazione in forza di Perforce di un progetto in un momento specifico. Le aree di lavoro vengono create utilizzando come base un'istantanea del progetto. È possibile creare nuove aree di lavoro all'interno di un progetto Builders. È possibile creare aree di lavoro dall'interfaccia utente Perforce.
+
+.Prima di iniziare
+Assicurarsi di avere integrato i costruttori con il client Visual Perforce Helix. Per ulteriori informazioni, vedere link:integrate-perforce.html["Integrare costruttori con Perforce"^] .
+
+.Fasi
+. Accedere a Perforce.
+. Nel menu Perforce, selezionare *View* > *WF*.
++
+La schermata di accesso alla fabbrica del carico di lavoro viene visualizzata nell'interfaccia utente di Perforce.
+
+. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
+. Selezionare *Crea area di lavoro*.
+. Nella pagina Crea un progetto area di lavoro, fornire quanto segue:
++
+.. Selezionare un'istantanea da utilizzare come base per l'area di lavoro.
+.. Immettere un nome per l'area di lavoro.
+.. Facoltativamente, immettere un identificativo utente per richiedere l'area di lavoro. Questo identificatore deve corrispondere all'ID utente Perforce dello sviluppatore che utilizzerà questa area di lavoro.
+
+
+. Selezionare *Crea*.
+
+
+.Risultato
+L'area di lavoro viene creata e viene visualizzata nell'elenco delle aree di lavoro nella pagina aree di lavoro.

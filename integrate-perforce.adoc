@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: integrate-perforce.html 
+keywords: software builders, integrate, integration, Perforce 
+summary: Scoprite come integrare i costruttori con Perforce. 
+---
+= Integrare costruttori con Perforce
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Integrare i costruttori con Perforce Helix Visual Client (P4V) in modo che gli sviluppatori possano gestire le aree di lavoro utilizzando Perforce CLI. Ciò consente agli sviluppatori di passare rapidamente da un progetto all'altro e di passare da uno spazio di lavoro all'altro, risparmiando tempo durante lo sviluppo.
+
+.Fasi
+. Scaricare https://builders.console.workloads.netapp.com/p4v["File di integrazione P4V"^].
+. Apri P4V e vai su *Strumenti* > *Gestisci Strumenti* > *schede HTML*.
+. Selezionare *Importa schede HTML*.
+. Selezionare il file XML di integrazione P4V e selezionare *Importa*.
+. Vai a *Visualizza* > *workload Factory*.
+
+
+.Risultato
+La factory del carico di lavoro BlueXP  per l'interfaccia utente Web dei costruttori viene visualizzata come una scheda HTML all'interno del client P4V.
+
+.Quali sono le prossime novità?
+link:manage-projects.html["Creare un piano di implementazione Amazon EC2 utilizzando il Migration ADVISOR"].

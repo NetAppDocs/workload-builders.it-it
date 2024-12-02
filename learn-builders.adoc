@@ -1,0 +1,100 @@
+---
+sidebar: sidebar 
+permalink: learn-builders.html 
+keywords: software builders, development, benefits 
+summary: BlueXP  workload Factory for Builders è uno strumento di creazione rapida di ambienti per i costruttori di software. 
+---
+= Informazioni su BlueXP  workload Factory for Builders
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP  workload Factory for Builders è uno strumento di creazione rapida di ambienti per i costruttori di software. Consente una rapida configurazione degli ambienti di sviluppo personale, risparmiando tempo e fornendo funzionalità self-service agli sviluppatori, consentendo ai team DevOps di mantenere il controllo dell'infrastruttura. Utilizzando Builders, gli sviluppatori di software possono creare rapidamente spazi di lavoro senza la necessità di storage di dati specializzati o la comprensione dell'infrastruttura di sviluppo.
+
+
+
+== Che cos'è la fabbrica di workload BlueXP  per i costruttori?
+
+BlueXP  workload Factory for Builders è progettato per semplificare il modo in cui gli sviluppatori gestiscono e interagiscono con le diverse versioni del software. I costruttori si integrano perfettamente con Perforce Helix Core per fornire cloni istantanei delle versioni software, creando spazi di lavoro pronti all'uso per lo sviluppo, il controllo qualità e i processi ci/CD.
+
+Con Builders, è possibile creare facilmente un progetto e assegnare un volume che rappresenta l'ambiente software e i relativi artefatti. Durante l'aggiornamento del software, è possibile acquisire istantanee del volume, acquisendo lo stato del software in quel momento. Ciò significa che è possibile accedere immediatamente a qualsiasi versione del software senza dover eseguire nuovamente la sincronizzazione con il sistema di controllo delle versioni, risparmiando tempo e risorse preziose.
+
+Sfruttando le funzionalità di snapshot e clonazione di ONTAP, Builders migliora il flusso di lavoro di sviluppo, consentendo un rapido accesso a più versioni del software, accelerando i cicli di sviluppo e contribuendo a ridurre il time-to-market.
+
+Per ulteriori informazioni sulla fabbrica dei carichi di lavoro, fare riferimento alla link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html["panoramica della fabbrica del carico di lavoro"^].
+
+
+
+== Funzionalità di workload Factory di BlueXP  per costruttori
+
+BlueXP  workload Factory per costruttori offre le seguenti funzioni:
+
+* Creare, modificare e rimuovere i progetti
+* Creare snapshot di versioni software definite
+* Creare ed eliminare aree di lavoro (basate sui cloni)
+* Creare policy di accesso per controllare l'accesso a un progetto
+* Analizzare l'utilizzo della capacità di ogni progetto
+* Controlla i limiti delle dimensioni dei cloni e la conservazione dei cloni per ogni progetto
+* Integrazione con sistemi di controllo delle versioni come Perforce
+
+
+
+
+== Progetti e spazi di lavoro in costruttori
+
+Quando si utilizza Builders, si crea un progetto e si assegna un volume che rappresenta l'ambiente software e i relativi artefatti. Ogni volta che si crea una nuova versione del software, è necessario risincronizzare i dati del volume e creare uno snapshot del progetto per contrassegnare lo stato del volume come versione nota. Il volume di origine del progetto potrebbe ottenere aggiornamenti in sequenza e disporre di più snapshot per contrassegnare più versioni. È possibile utilizzare ciascuna snapshot immediatamente come clone istantaneo, un repository modificabile dedicato o condiviso disponibile per gli sviluppatori, il controllo qualità o i processi di creazione. Un clone nel contesto di una specifica versione software è uno spazio di lavoro.
+
+
+
+== Modalità operative in fabbrica dei carichi di lavoro
+
+Tre diverse modalità operative, _Basic_, _Read_ e _Automate_, offrono opzioni flessibili per l'implementazione all'interno e all'esterno della workload Factory. Ottieni un valore immediato con zero-trust in modalità _Basic_ con frammenti di codice da utilizzare al di fuori di workload factory. Ottenete valore incrementale con la fiducia incrementale nelle modalità _Read_ e _Automate_.
+
+Ulteriori informazioni su link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["modalità operative in fabbrica dei carichi di lavoro"^].
+
+
+
+== Automazione con workload Factory Codebox
+
+Workload Factory introduce l'automazione integrata con _Codebox_. Codebox offre i seguenti vantaggi dell'automazione:
+
+* *Generazione di frammenti di codice*: I frammenti Infrastructure-as-Code (IAC) vengono generati durante la creazione delle risorse, consentendo un'integrazione perfetta con i flussi di lavoro di orchestrazione esistenti.
+* *Co-pilot Infrastructure-as-code*: Il Codebox è un co-pilot Infrastructure-as-code (IAC) che aiuta gli sviluppatori e DevOps a generare codice per eseguire qualsiasi operazione supportata da workload Factory.
+* *Code Viewer e catalogo di automazione*: Il Codebox fornisce un visualizzatore di codice per una rapida analisi dell'automazione e un catalogo di automazione per un rapido riutilizzo futuro.
+
+
+
+
+== Costo
+
+L'utilizzo della funzionalità costruttore di workload Factory non comporta costi aggiuntivi.
+
+
+
+== Licensing
+
+NetApp non richiede licenze speciali per utilizzare le funzionalità Builders di workload Factory.
+
+
+
+=== Regioni supportate
+
+Builders è supportato in tutte le aree commerciali in cui è supportato FSX per ONTAP. https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/["Visualizza le regioni Amazon supportate."^]
+
+Le seguenti regioni AWS non sono supportate:
+
+* Regioni della Cina
+* Regioni di GovCloud (USA)
+* Cloud segreto
+* Cloud top secret
+
+
+
+
+== Assistenza
+
+Amazon FSX per NetApp ONTAP è una soluzione AWS first-party. Per domande o problemi di supporto tecnico associati al file system, all'infrastruttura o alla soluzione FSX per ONTAP che utilizza questo servizio, utilizza il Support Center nella console di gestione AWS per aprire un caso di supporto con AWS. Selezionare il servizio "FSX per ONTAP" e la categoria appropriata. Fornire le informazioni rimanenti necessarie per creare il caso di supporto AWS.
+
+Per domande generali sulle applicazioni e i servizi di fabbrica dei carichi di lavoro o di fabbrica dei carichi di lavoro, fare riferimento a link:get-help-builders.html["Assistenza per i costruttori di workload Factory"].
