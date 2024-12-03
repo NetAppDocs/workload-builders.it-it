@@ -4,7 +4,7 @@ permalink: known-limitations.html
 keywords: limitations, builders 
 summary: Le limitazioni note identificano piattaforme, dispositivi o funzioni non supportate da questa versione del prodotto o che non interagiscono correttamente con esso. Esaminare attentamente queste limitazioni. 
 ---
-= Limitazioni note
+= Limitazioni note della fabbrica di workload BlueXP  per i costruttori
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

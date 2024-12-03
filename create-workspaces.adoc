@@ -4,7 +4,7 @@ permalink: create-workspaces.html
 keywords: manage, workspace, snapshot, project 
 summary: 'Un"area di lavoro nella fabbrica del carico di lavoro BlueXP  per i costruttori è una rappresentazione in Perforce di un progetto che si basa su uno snapshot del progetto. È possibile creare aree di lavoro come parte di un progetto Builders.' 
 ---
-= Creare un'area di lavoro
+= Creare un'area di lavoro Builders
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
