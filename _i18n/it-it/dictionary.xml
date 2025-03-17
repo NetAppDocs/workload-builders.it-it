@@ -346,4 +346,8 @@
   <block id="e13a5649dfef3a1c76c4be8e463226d7" category="list-text">Nella parte superiore destra della console di fabbrica del carico di lavoro, selezionare *Guida &gt; supporto*.</block>
   <block id="ce638fcfafd4d79a49524062225d7fbc" category="paragraph">La registrazione del supporto è necessaria per ricevere supporto tecnico specifico per la fabbrica di carichi di lavoro BlueXP  e per le sue soluzioni e servizi di storage. È necessario registrarsi per il supporto dalla console BlueXP , che è una console basata su Web separata da workload Factory.</block>
   <block id="2cbcc262b0a39ec19c5f69bffccb70fb" category="paragraph">La registrazione per il supporto non attiva il supporto NetApp per un file service provider cloud. Per il supporto tecnico relativo a un file service del cloud provider, alla sua infrastruttura o a qualsiasi soluzione che utilizzi il servizio, fare riferimento a "Assistenza" nella documentazione del workload factory relativa a quel prodotto.</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blog e community</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Community NetApp</block>
+  <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">Blog BlueXP</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinar sul cloud</block>
 </blocks>
