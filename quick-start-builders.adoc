@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: quick-start-builders.html 
-keywords: requirements, basic mode, read mode, automate mode 
+keywords: requirements, Basic mode, Read-only mode, Read/Write mode 
 summary: I database hanno tre diverse modalità che hanno requisiti diversi. 
 ---
 = Avvio rapido per i costruttori
@@ -19,7 +19,7 @@ Sarà necessario https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Due"] Aggiungi credenziali e autorizzazioni AWS al tuo account
 [role="quick-margin-para"]
-Puoi utilizzare la fabbrica dei carichi di lavoro in modalità _Basic_ senza aggiungere credenziali per accedere all'account AWS. L'aggiunta di credenziali AWS alla fabbrica dei carichi di lavoro in modalità _Read_ o _Automate_ fornisce all'account della fabbrica dei carichi di lavoro le autorizzazioni necessarie per creare e gestire i file system FSX per ONTAP, nonché per implementare e gestire i progetti Builders.
+Puoi utilizzare la fabbrica dei carichi di lavoro in modalità _Basic_ senza aggiungere credenziali per accedere all'account AWS. L'aggiunta di credenziali AWS alla fabbrica dei carichi di lavoro in modalità _Read-Only_ o _Read/Write_ consente di assegnare all'account della fabbrica dei carichi di lavoro le autorizzazioni necessarie per creare e gestire i file system FSX per ONTAP, nonché per implementare e gestire i progetti Builders.
 
 [role="quick-margin-para"]
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Informazioni su come aggiungere credenziali e autorizzazioni"^].
