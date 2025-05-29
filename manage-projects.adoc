@@ -93,14 +93,6 @@ Il progetto viene creato e viene visualizzato nell'elenco dei progetti nella pag
 . Selezionare *Salva*.
 
 
-.Fasi
-. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
-. Nella sezione costruttori, selezionare *Vai alla pagina progetti*.
-. Nella pagina progetti, selezionare image:icon-action.png["il pulsante di opzione"] per il progetto che si desidera acquisire.
-. Nel menu risultante, selezionare *Crea un'istantanea*.
-. Nella finestra di dialogo *Crea istantanea*, scegliere un nome per l'istantanea e selezionare *Crea*.
-
-
 
 
 == Visualizzare le aree di lavoro di un progetto

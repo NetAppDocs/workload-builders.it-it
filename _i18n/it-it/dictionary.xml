@@ -353,4 +353,10 @@
   <block id="98c15024a0a6463353585181f922a6d8" category="list-text">Devi aggiungere le credenziali AWS alla fabbrica dei carichi di lavoro con autorizzazioni di lettura/scrittura, il che significa che utilizzerai la fabbrica dei carichi di lavoro in modalità _lettura/scrittura_ per i costruttori.</block>
   <block id="19e72e9857cc00ad57d29107d2e5f1fb" category="paragraph">Le autorizzazioni per la modalità _Basic_ e la modalità _Read-only_ non sono attualmente supportate. <block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">4 maggio 2025</block>
+  <block id="d585a12eb322284819964d656e33d798" category="summary">Proteggere i progetti Builders creando snapshot e cloni.</block>
+  <block id="69b33a7dae155d4aeca7bb5e1abb1cce" category="doc">Protezione di BlueXP  workload Factory per progetti Builders</block>
+  <block id="0deec7e6c3ce920634e346d6726ee3dc" category="paragraph">Proteggi i progetti Builders creando snapshot on-demand direttamente da workload Factory. Le istantanee di un progetto sono memorizzate nel filesystem associato al progetto al momento della creazione.</block>
+  <block id="1c88041df602722b072eab90c31d79ca" category="section-title">Creare un'istantanea di un progetto</block>
+  <block id="1370537941b9a464462bf9a14972eee6" category="paragraph">È possibile creare un'istantanea di un progetto seguendo questi passaggi.</block>
+  <block id="a0f77c725888fef07f815b55549ad747" category="sidebar">Proteggere i progetti</block>
 </blocks>
