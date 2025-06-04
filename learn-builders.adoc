@@ -50,7 +50,7 @@ Quando si utilizza Builders, si crea un progetto e si assegna un volume che rapp
 
 == Modalità operative in fabbrica dei carichi di lavoro
 
-Tre diverse modalità operative, _Basic_, _Read_ e _Automate_, offrono opzioni flessibili per l'implementazione all'interno e all'esterno della workload Factory. Ottieni un valore immediato con zero-trust in modalità _Basic_ con frammenti di codice da utilizzare al di fuori di workload factory. Ottenete valore incrementale con la fiducia incrementale nelle modalità _Read_ e _Automate_.
+Tre diverse modalità operative - _base_, _sola lettura_ e _lettura/scrittura_ - offrono opzioni flessibili per l'implementazione all'interno e all'esterno della workload factory. Ottieni un valore immediato con zero-trust in modalità _Basic_ con frammenti di codice da utilizzare al di fuori di workload factory. Ottieni valore incrementale con trust incrementale nelle modalità _sola lettura_ e _lettura/scrittura_.
 
 Ulteriori informazioni su link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["modalità operative in fabbrica dei carichi di lavoro"^].
 

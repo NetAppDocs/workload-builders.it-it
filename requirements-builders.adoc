@@ -14,10 +14,10 @@ summary: Verificare che la workload Factory e AWS siano configurati correttament
 Verificare che la workload Factory e AWS siano configurati correttamente prima di iniziare a utilizzare la fabbrica di carichi di lavoro BlueXP  per i costruttori. Ciò include la possibilità di avere le credenziali di log in di AWS, un file system FSX per ONTAP implementato e altro ancora.
 
 Account e login di fabbrica del carico di lavoro:: Sarà necessario https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["configurare un account con workload factory"^] ed effettuare l'accesso utilizzando uno dei https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^] .
-Credenziali e autorizzazioni AWS:: Devi aggiungere le credenziali AWS alla fabbrica dei carichi di lavoro con autorizzazioni di lettura/scrittura, il che significa che utilizzerai la fabbrica dei carichi di lavoro in modalità _lettura/scrittura_ per i costruttori.
+Credenziali e autorizzazioni AWS:: È necessario aggiungere le credenziali AWS alla Workload Factory con autorizzazioni di lettura/scrittura, il che significa che utilizzerai la Workload Factory in modalità _lettura/scrittura_ per i Builder.
 
 
-Le autorizzazioni per la modalità _Basic_ e la modalità _Read-only_ non sono attualmente supportate. https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Scopri come aggiungere le credenziali AWS alla fabbrica di carichi di lavoro"^]
+Al momento, le autorizzazioni in modalità _base_ e _sola lettura_ non sono supportate. https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Scopri come aggiungere le credenziali AWS alla fabbrica di carichi di lavoro"^]
 
 File system FSX per ONTAP:: Ti serve almeno un file system FSX per ONTAP:
 +
