@@ -348,15 +348,29 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinar sul cloud</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="doc">Terminologia aggiornata per le autorizzazioni</block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">4 maggio 2025</block>
-  <block id="d585a12eb322284819964d656e33d798" category="summary">Proteggere i progetti Builders creando snapshot e cloni.</block>
-  <block id="69b33a7dae155d4aeca7bb5e1abb1cce" category="doc">Protezione di BlueXP  workload Factory per progetti Builders</block>
-  <block id="0deec7e6c3ce920634e346d6726ee3dc" category="paragraph">Proteggi i progetti Builders creando snapshot on-demand direttamente da workload Factory. Le istantanee di un progetto sono memorizzate nel filesystem associato al progetto al momento della creazione.</block>
   <block id="1c88041df602722b072eab90c31d79ca" category="section-title">Creare un'istantanea di un progetto</block>
   <block id="1370537941b9a464462bf9a14972eee6" category="paragraph">È possibile creare un'istantanea di un progetto seguendo questi passaggi.</block>
-  <block id="a0f77c725888fef07f815b55549ad747" category="sidebar">Proteggere i progetti</block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">L'interfaccia utente e la documentazione della Workload Factory ora utilizzano "sola lettura" per fare riferimento alle autorizzazioni di lettura e "lettura/scrittura" per fare riferimento alle autorizzazioni di automazione.</block>
   <block id="9d31d07638cfa37e022a93f50a24a37a" category="paragraph">Tre diverse modalità operative - _base_, _sola lettura_ e _lettura/scrittura_ - offrono opzioni flessibili per l'implementazione all'interno e all'esterno della workload factory. Ottieni un valore immediato con zero-trust in modalità _Basic_ con frammenti di codice da utilizzare al di fuori di workload factory. Ottieni valore incrementale con trust incrementale nelle modalità _sola lettura_ e _lettura/scrittura_.</block>
   <block id="52170312a0c40a6c39ee9dda5284b4f0" category="paragraph">Puoi utilizzare la fabbrica dei carichi di lavoro in modalità _Basic_ senza aggiungere credenziali per accedere all'account AWS. L'aggiunta delle credenziali AWS alla Workload Factory in modalità _sola lettura_ o _lettura/scrittura_ fornisce all'account della Workload Factory le autorizzazioni necessarie per creare e gestire i file system FSx for ONTAP e per distribuire e gestire i progetti Builder.</block>
   <block id="07b92eb27d7b3c0fc0f57b352341acb5" category="list-text">È necessario aggiungere le credenziali AWS alla Workload Factory con autorizzazioni di lettura/scrittura, il che significa che utilizzerai la Workload Factory in modalità _lettura/scrittura_ per i Builder.</block>
   <block id="5e80379093f27293f5ebbde3a13ddc71" category="paragraph">Al momento, le autorizzazioni in modalità _base_ e _sola lettura_ non sono supportate. <block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
+  <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">Supporto per clonazione</block>
+  <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">Ora è possibile clonare un progetto nella fabbrica di carichi di lavoro BlueXP per Builders. Quando si clona un progetto, Builders crea un nuovo progetto da uno snapshot, con la stessa configurazione dell'originale. La clonazione è utile per creare rapidamente progetti simili o per scopi di test. È possibile montare il nuovo clone del progetto seguendo le istruzioni in Builders.</block>
+  <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">Gestisci le versioni della fabbrica di carichi di lavoro BlueXP per i progetti Builder</block>
+  <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
+  <block id="f3dffc1ab287638d7073208a231fa289" category="summary">Gestisci le versioni dei tuoi progetti Builder utilizzando snapshot e cloni.</block>
+  <block id="b066fd241c4e6e66ece7c7a4527218cf" category="inline-link">API REST della fabbrica del carico di lavoro</block>
+  <block id="00b8d5f676925ae3d9b3373616e27074" category="paragraph">Lavora con diverse versioni dei tuoi progetti Builder creando snapshot e cloni on-demand direttamente dalla Workload Factory. Gli snapshot e i cloni di un progetto vengono archiviati nel file system associato al progetto al momento della sua creazione. Puoi anche gestire snapshot e cloni utilizzando <block ref="5f3a8bb73f58d34352656d43a7f37086" category="inline-link-rx"></block> .</block>
+  <block id="527db32c9553673d65f35d38b044b7de" category="section-title">Creare un clone di un progetto</block>
+  <block id="9a9aa1b9cb93d04e42fe69259c5b4a7e" category="paragraph">Clona un progetto Builders da uno snapshot seguendo questi passaggi. Quando crei un clone, viene creato un nuovo volume modificabile che lo conterrà.</block>
+  <block id="ffd0b63d4491cd8691ad26a9457b8f6a" category="list-text">Nella pagina Progetti, seleziona <block ref="4dc533ba94e6ca8d1968a9d477e1cbce" category="inline-image-macro-rx" type="image"></block> per il progetto che vuoi clonare.</block>
+  <block id="e289b398c25a5d7192096ffdb52be29f" category="list-text">Nel menu che si apre, seleziona *Crea un clone*.</block>
+  <block id="1baa1309157b6d07509f68ee5fbfebaa" category="list-text">Nella finestra di dialogo *Crea clone*, procedi come segue:</block>
+  <block id="c9f8a1bc51e7ad4b5dbd3b4fd54d159e" category="list-text">Inserisci un nome per il clone.</block>
+  <block id="ef9eed0d84a82b3fb511fd837da2eef7" category="paragraph">Il nome predefinito per il clone è il nome del progetto con un suffisso della data e dell'ora correnti.</block>
+  <block id="34ec6730fd54f4c463f31402d0ea9b83" category="list-text">Selezionare uno snapshot da utilizzare come base per il clone.</block>
+  <block id="c53c752e3fb8fda71f585d5e8721e833" category="paragraph">Workload Factory crea un nuovo clone del progetto e il clone viene visualizzato come nuovo progetto nella pagina Progetti.</block>
+  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">16 giugno 2025</block>
+  <block id="adbb6bf856639e7a9dcf34b22158718f" category="sidebar">Gestire le versioni del progetto</block>
 </blocks>

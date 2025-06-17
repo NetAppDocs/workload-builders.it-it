@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: version-projects.html 
+keywords: snapshot, clone, project, protect, API, version, versions, versioning 
+summary: Gestisci le versioni dei tuoi progetti Builder utilizzando snapshot e cloni. 
+---
+= Gestisci le versioni della fabbrica di carichi di lavoro BlueXP per i progetti Builder
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Lavora con diverse versioni dei tuoi progetti Builder creando snapshot e cloni on-demand direttamente dalla Workload Factory. Gli snapshot e i cloni di un progetto vengono archiviati nel file system associato al progetto al momento della sua creazione. Puoi anche gestire snapshot e cloni utilizzando  https://console.workloads.netapp.com/api-doc["API REST della fabbrica del carico di lavoro"^] .
+
+
+
+== Creare un'istantanea di un progetto
+
+È possibile creare un'istantanea di un progetto seguendo questi passaggi.
+
+.Fasi
+. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
+. Nella sezione costruttori, selezionare *Vai alla pagina progetti*.
+. Nella pagina progetti, selezionare image:icon-action.png["il pulsante di opzione"] per il progetto che si desidera acquisire.
+. Nel menu risultante, selezionare *Crea un'istantanea*.
+. Nella finestra di dialogo *Crea istantanea*, scegliere un nome per l'istantanea e selezionare *Crea*.
+
+
+
+
+== Creare un clone di un progetto
+
+Clona un progetto Builders da uno snapshot seguendo questi passaggi. Quando crei un clone, viene creato un nuovo volume modificabile che lo conterrà.
+
+.Fasi
+. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
+. Nella sezione costruttori, selezionare *Vai alla pagina progetti*.
+. Nella pagina Progetti, seleziona image:icon-action.png["il pulsante di opzione"] per il progetto che vuoi clonare.
+. Nel menu che si apre, seleziona *Crea un clone*.
+. Nella finestra di dialogo *Crea clone*, procedi come segue:
++
+.. Inserisci un nome per il clone.
++
+Il nome predefinito per il clone è il nome del progetto con un suffisso della data e dell'ora correnti.
+
+.. Selezionare uno snapshot da utilizzare come base per il clone.
+.. Selezionare *Crea*.
+
+
+
+
+.Risultato
+Workload Factory crea un nuovo clone del progetto e il clone viene visualizzato come nuovo progetto nella pagina Progetti.
