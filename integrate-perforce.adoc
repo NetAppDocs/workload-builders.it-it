@@ -22,7 +22,7 @@ Integrare i costruttori con Perforce Helix Visual Client (P4V) in modo che gli s
 
 
 .Risultato
-La factory del carico di lavoro BlueXP  per l'interfaccia utente Web dei costruttori viene visualizzata come una scheda HTML all'interno del client P4V.
+L'interfaccia utente Web NetApp Workload Factory for Builders viene visualizzata come una scheda HTML all'interno del client P4V.
 
 .Quali sono le prossime novità?
 link:manage-projects.html["Creare un piano di implementazione Amazon EC2 utilizzando il Migration ADVISOR"].

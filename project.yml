@@ -23,7 +23,7 @@ sidebar:
       url: "/known-limitations.html"
   - title: Inizia subito
     entries:
-    - title: Informazioni su BlueXP  workload Factory for Builders
+    - title: Scopri di più su NetApp Workload Factory per i costruttori
       url: "/learn-builders.html"
     - title: Avvio rapido
       url: "/quick-start-builders.html"
@@ -50,5 +50,5 @@ sidebar:
   - title: Note legali
     url: "/legal-notices.html"
 product-family:
-  name: BlueXP workload factory
+  name: NetApp Workload Factory
   repo: workload-family

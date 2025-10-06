@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: create-workspaces.html 
 keywords: manage, workspace, snapshot, project 
-summary: 'Un"area di lavoro nella fabbrica del carico di lavoro BlueXP  per i costruttori è una rappresentazione in Perforce di un progetto che si basa su uno snapshot del progetto. È possibile creare aree di lavoro come parte di un progetto Builders.' 
+summary: 'Un"area di lavoro in NetApp Workload Factory for Builders è una rappresentazione Perforce di un progetto basata su uno snapshot del progetto.  È possibile creare spazi di lavoro come parte di un progetto Builder.' 
 ---
 = Creare un'area di lavoro Builders
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'Un"area di lavoro nella fabbrica del carico di lavoro BlueXP  per i c
 
 
 [role="lead"]
-Un'area di lavoro nella fabbrica di workload BlueXP  per i costruttori è una rappresentazione in forza di Perforce di un progetto in un momento specifico. Le aree di lavoro vengono create utilizzando come base un'istantanea del progetto. È possibile creare nuove aree di lavoro all'interno di un progetto Builders. È possibile creare aree di lavoro dall'interfaccia utente Perforce.
+Un'area di lavoro in NetApp Workload Factory for Builders è una rappresentazione Perforce di un progetto in un momento specifico.  Gli spazi di lavoro vengono creati utilizzando come base uno snapshot del progetto.  È possibile creare nuovi spazi di lavoro all'interno di un progetto Builder.  È possibile creare spazi di lavoro dall'interfaccia utente di Perforce.
 
 .Prima di iniziare
 Assicurarsi di avere integrato i costruttori con il client Visual Perforce Helix. Per ulteriori informazioni, vedere link:integrate-perforce.html["Integrare costruttori con Perforce"^] .
@@ -20,9 +20,10 @@ Assicurarsi di avere integrato i costruttori con il client Visual Perforce Helix
 . Accedere a Perforce.
 . Nel menu Perforce, selezionare *View* > *WF*.
 +
-La schermata di accesso alla fabbrica del carico di lavoro viene visualizzata nell'interfaccia utente di Perforce.
+La schermata di accesso a Workload Factory viene visualizzata nell'interfaccia utente di Perforce.
 
-. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
+. Accedi a Workload Factory utilizzando uno deilink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^] .
+. Nel riquadro Carichi di lavoro Builder, seleziona *Crea progetto*.
 . Selezionare *Crea area di lavoro*.
 . Nella pagina Crea un progetto area di lavoro, fornire quanto segue:
 +

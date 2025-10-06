@@ -4,14 +4,14 @@ permalink: version-projects.html
 keywords: snapshot, clone, project, protect, API, version, versions, versioning 
 summary: Gestisci le versioni dei tuoi progetti Builder utilizzando snapshot e cloni. 
 ---
-= Gestisci le versioni della fabbrica di carichi di lavoro BlueXP per i progetti Builder
+= Gestisci le versioni dei progetti NetApp Workload Factory for Builders
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-Lavora con diverse versioni dei tuoi progetti Builder creando snapshot e cloni on-demand direttamente dalla Workload Factory. Gli snapshot e i cloni di un progetto vengono archiviati nel file system associato al progetto al momento della sua creazione. Puoi anche gestire snapshot e cloni utilizzando  https://console.workloads.netapp.com/api-doc["API REST della fabbrica del carico di lavoro"^] .
+Lavora con diverse versioni dei tuoi progetti Builder creando snapshot e cloni on-demand direttamente da Workload Factory.  Gli snapshot e i cloni di un progetto vengono archiviati nel file system associato al progetto al momento della sua creazione.  È inoltre possibile gestire snapshot e cloni utilizzando https://console.workloads.netapp.com/api-doc["API REST di Workload Factory"^] .
 
 
 
@@ -20,7 +20,7 @@ Lavora con diverse versioni dei tuoi progetti Builder creando snapshot e cloni o
 È possibile creare un'istantanea di un progetto seguendo questi passaggi.
 
 .Fasi
-. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
+. Accedi a Workload Factory utilizzando uno deilink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^] .
 . Nella sezione costruttori, selezionare *Vai alla pagina progetti*.
 . Nella pagina progetti, selezionare image:icon-action.png["il pulsante di opzione"] per il progetto che si desidera acquisire.
 . Nel menu risultante, selezionare *Crea un'istantanea*.
@@ -34,7 +34,7 @@ Lavora con diverse versioni dei tuoi progetti Builder creando snapshot e cloni o
 Clona un progetto Builders da uno snapshot seguendo questi passaggi. Quando crei un clone, viene creato un nuovo volume modificabile che lo conterrà.
 
 .Fasi
-. Accedere a workload Factory utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
+. Accedi a Workload Factory utilizzando uno deilink:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^] .
 . Nella sezione costruttori, selezionare *Vai alla pagina progetti*.
 . Nella pagina Progetti, seleziona image:icon-action.png["il pulsante di opzione"] per il progetto che vuoi clonare.
 . Nel menu che si apre, seleziona *Crea un clone*.

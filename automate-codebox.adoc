@@ -11,6 +11,6 @@ summary: Con Codebox è possibile automatizzare la distribuzione host, la creazi
 
 
 [role="lead"]
-Codebox consente di automatizzare le operazioni di creazione dei progetti e protezione dei dati. Codebox è un co-pilota IAC (Infrastructure as Code) che consente di generare codice per eseguire tutte le operazioni supportate da workload Factory.
+Con Codebox puoi automatizzare la creazione di progetti e le operazioni di protezione dei dati.  Codebox è un copilota dell'infrastruttura come codice (IaC) che ti aiuta a generare codice per eseguire qualsiasi operazione supportata da Workload Factory.
 
 Scopri di più su link:https://docs.netapp.com/us-en/workload-setup-admin/codebox-automation.html["Automazione del codebox"^] e su come utilizzarlo.

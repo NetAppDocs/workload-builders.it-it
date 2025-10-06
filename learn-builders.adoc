@@ -2,34 +2,34 @@
 sidebar: sidebar 
 permalink: learn-builders.html 
 keywords: software builders, development, benefits 
-summary: BlueXP  workload Factory for Builders è uno strumento di creazione rapida di ambienti per i costruttori di software. 
+summary: NetApp Workload Factory for Builders è uno strumento per la creazione rapida di ambienti di build destinato agli sviluppatori di software. 
 ---
-= Informazioni su BlueXP  workload Factory for Builders
+= Scopri di più su NetApp Workload Factory per i costruttori
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-BlueXP  workload Factory for Builders è uno strumento di creazione rapida di ambienti per i costruttori di software. Consente una rapida configurazione degli ambienti di sviluppo personale, risparmiando tempo e fornendo funzionalità self-service agli sviluppatori, consentendo ai team DevOps di mantenere il controllo dell'infrastruttura. Utilizzando Builders, gli sviluppatori di software possono creare rapidamente spazi di lavoro senza la necessità di storage di dati specializzati o la comprensione dell'infrastruttura di sviluppo.
+NetApp Workload Factory for Builders è uno strumento per la creazione rapida di ambienti di build destinato agli sviluppatori di software.  Consente una rapida configurazione di ambienti di sviluppo personali, risparmiando tempo e consentendo agli sviluppatori di utilizzare il self-service, consentendo al contempo ai team DevOps di mantenere il controllo dell'infrastruttura.  Utilizzando Builders, gli sviluppatori software possono creare rapidamente spazi di lavoro senza dover ricorrere a sistemi di archiviazione dati specializzati o a conoscenze specifiche dell'infrastruttura di sviluppo.
 
 
 
-== Che cos'è la fabbrica di workload BlueXP  per i costruttori?
+== Che cos'è NetApp Workload Factory for Builders?
 
-BlueXP  workload Factory for Builders è progettato per semplificare il modo in cui gli sviluppatori gestiscono e interagiscono con le diverse versioni del software. I costruttori si integrano perfettamente con Perforce Helix Core per fornire cloni istantanei delle versioni software, creando spazi di lavoro pronti all'uso per lo sviluppo, il controllo qualità e i processi ci/CD.
+NetApp Workload Factory for Builders è progettato per semplificare il modo in cui gli sviluppatori gestiscono e interagiscono con le diverse versioni del loro software.  Builders si integra perfettamente con Perforce Helix Core per fornire cloni istantanei delle versioni software, creando spazi di lavoro pronti all'uso per i processi di sviluppo, QA e CI/CD.
 
 Con Builders, è possibile creare facilmente un progetto e assegnare un volume che rappresenta l'ambiente software e i relativi artefatti. Durante l'aggiornamento del software, è possibile acquisire istantanee del volume, acquisendo lo stato del software in quel momento. Ciò significa che è possibile accedere immediatamente a qualsiasi versione del software senza dover eseguire nuovamente la sincronizzazione con il sistema di controllo delle versioni, risparmiando tempo e risorse preziose.
 
 Sfruttando le funzionalità di snapshot e clonazione di ONTAP, Builders migliora il flusso di lavoro di sviluppo, consentendo un rapido accesso a più versioni del software, accelerando i cicli di sviluppo e contribuendo a ridurre il time-to-market.
 
-Per ulteriori informazioni sulla fabbrica dei carichi di lavoro, fare riferimento alla link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html["panoramica della fabbrica del carico di lavoro"^].
+Per ulteriori informazioni su Workload Factory, fare riferimento alink:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html["Panoramica di Workload Factory"^] .
 
 
 
-== Funzionalità di workload Factory di BlueXP  per costruttori
+== Funzionalità di NetApp Workload Factory per Builders
 
-BlueXP  workload Factory per costruttori offre le seguenti funzioni:
+NetApp Workload Factory for Builders offre le seguenti funzionalità:
 
 * Creare, modificare e rimuovere i progetti
 * Creare snapshot di versioni software definite
@@ -48,20 +48,20 @@ Quando si utilizza Builders, si crea un progetto e si assegna un volume che rapp
 
 
 
-== Modalità operative in fabbrica dei carichi di lavoro
+== Modalità operative in Workload Factory
 
-Tre diverse modalità operative - _base_, _sola lettura_ e _lettura/scrittura_ - offrono opzioni flessibili per l'implementazione all'interno e all'esterno della workload factory. Ottieni un valore immediato con zero-trust in modalità _Basic_ con frammenti di codice da utilizzare al di fuori di workload factory. Ottieni valore incrementale con trust incrementale nelle modalità _sola lettura_ e _lettura/scrittura_.
+Tre diverse modalità operative (base, sola lettura e lettura/scrittura) offrono opzioni flessibili per l'implementazione all'interno e all'esterno di Workload Factory.  Ottieni un valore immediato con zero-trust in modalità _basic_ con frammenti di codice da utilizzare al di fuori di Workload Factory.  Ottieni un valore incrementale con fiducia incrementale nelle modalità _sola lettura_ e _lettura/scrittura_.
 
-Ulteriori informazioni su link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["modalità operative in fabbrica dei carichi di lavoro"^].
+Scopri di più su link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["modalità operative in Workload Factory"^] .
 
 
 
-== Automazione con workload Factory Codebox
+== Automazione con Workload Factory Codebox
 
 Workload Factory introduce l'automazione integrata con _Codebox_. Codebox offre i seguenti vantaggi dell'automazione:
 
 * *Generazione di frammenti di codice*: I frammenti Infrastructure-as-Code (IAC) vengono generati durante la creazione delle risorse, consentendo un'integrazione perfetta con i flussi di lavoro di orchestrazione esistenti.
-* *Co-pilot Infrastructure-as-code*: Il Codebox è un co-pilot Infrastructure-as-code (IAC) che aiuta gli sviluppatori e DevOps a generare codice per eseguire qualsiasi operazione supportata da workload Factory.
+* *Copilota dell'infrastruttura come codice*: Codebox è un copilota dell'infrastruttura come codice (IaC) che aiuta gli sviluppatori e i DevOps a generare codice per eseguire qualsiasi operazione supportata da Workload Factory.
 * *Code Viewer e catalogo di automazione*: Il Codebox fornisce un visualizzatore di codice per una rapida analisi dell'automazione e un catalogo di automazione per un rapido riutilizzo futuro.
 
 
@@ -69,17 +69,17 @@ Workload Factory introduce l'automazione integrata con _Codebox_. Codebox offre 
 
 == Costo
 
-L'utilizzo della funzionalità costruttore di workload Factory non comporta costi aggiuntivi.
+L'utilizzo della funzionalità Builders di Workload Factory non comporta alcun costo.
 
 
 
 == Licensing
 
-NetApp non richiede licenze speciali per utilizzare le funzionalità Builders di workload Factory.
+Per utilizzare le funzionalità Builders di Workload Factory non sono necessarie licenze speciali da parte di NetApp .
 
 
 
-=== Regioni supportate
+== Regioni
 
 Builders è supportato in tutte le aree commerciali in cui è supportato FSX per ONTAP. https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/["Visualizza le regioni Amazon supportate."^]
 
@@ -97,4 +97,4 @@ Le seguenti regioni AWS non sono supportate:
 
 Amazon FSX per NetApp ONTAP è una soluzione AWS first-party. Per domande o problemi di supporto tecnico associati al file system, all'infrastruttura o alla soluzione FSX per ONTAP che utilizza questo servizio, utilizza il Support Center nella console di gestione AWS per aprire un caso di supporto con AWS. Selezionare il servizio "FSX per ONTAP" e la categoria appropriata. Fornire le informazioni rimanenti necessarie per creare il caso di supporto AWS.
 
-Per domande generali sulle applicazioni e i servizi di fabbrica dei carichi di lavoro o di fabbrica dei carichi di lavoro, fare riferimento a link:get-help-builders.html["Assistenza per i costruttori di workload Factory"].
+Per domande generali su Workload Factory o sulle applicazioni e i servizi di Workload Factory, fare riferimento alink:get-help-builders.html["Ottieni assistenza per i costruttori per Workload Factory"] .

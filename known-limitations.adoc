@@ -4,7 +4,7 @@ permalink: known-limitations.html
 keywords: limitations, builders 
 summary: Le limitazioni note identificano piattaforme, dispositivi o funzioni non supportate da questa versione del prodotto o che non interagiscono correttamente con esso. Esaminare attentamente queste limitazioni. 
 ---
-= Limitazioni note della fabbrica di workload BlueXP  per i costruttori
+= Limitazioni note di NetApp Workload Factory for Builders
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
@@ -17,4 +17,4 @@ Le limitazioni note identificano piattaforme, dispositivi o funzioni non support
 
 == Autorizzazioni operatore richieste
 
-La fabbrica del carico di lavoro BlueXP  per i costruttori richiede le autorizzazioni dell'operatore per funzionare correttamente.
+Per funzionare correttamente, NetApp Workload Factory for Builders richiede le autorizzazioni di operatore.

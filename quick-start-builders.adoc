@@ -13,13 +13,13 @@ summary: I database hanno tre diverse modalità che hanno requisiti diversi.
 [role="lead"]
 Inizia a creare un progetto Builders. Gli amministratori e i responsabili dei team possono utilizzare Builders per amministrare progetti e spazi di lavoro per team di sviluppatori.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] Accedi a workload Factory
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"]Accedi a Workload Factory
 [role="quick-margin-para"]
-Sarà necessario https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["configurare un account con workload factory"^] ed effettuare l'accesso utilizzando uno dei https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^] .
+Avrai bisogno di https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["creare un account con Workload Factory"^] e accedi utilizzando uno dei https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^] .
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Due"] Aggiungi credenziali e autorizzazioni AWS al tuo account
 [role="quick-margin-para"]
-Puoi utilizzare la fabbrica dei carichi di lavoro in modalità _Basic_ senza aggiungere credenziali per accedere all'account AWS. L'aggiunta delle credenziali AWS alla Workload Factory in modalità _sola lettura_ o _lettura/scrittura_ fornisce all'account della Workload Factory le autorizzazioni necessarie per creare e gestire i file system FSx for ONTAP e per distribuire e gestire i progetti Builder.
+Puoi utilizzare Workload Factory in modalità _Basic_ senza aggiungere credenziali per accedere al tuo account AWS.  L'aggiunta delle credenziali AWS a Workload Factory in modalità _sola lettura_ o _lettura/scrittura_ fornisce al tuo account Workload Factory le autorizzazioni necessarie per creare e gestire i file system FSx for ONTAP e per distribuire e gestire i progetti Builder.
 
 [role="quick-margin-para"]
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Informazioni su come aggiungere credenziali e autorizzazioni"^].
